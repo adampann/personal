@@ -18,11 +18,13 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
   - {file: "README.md", title: "About"}
+  - {url: "https://www.linkedin.com/in/adam-pann/", title: "Linkedin"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:contact@adampann.com"}
   - {title: Github, icon: github, url: "https://github.com/adampann"}
   - {title: Subscribe, icon: instagram, url: "https://www.instagram.com/adampann/"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/adam-pann/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
