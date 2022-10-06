@@ -1,11 +1,10 @@
-<html lang="eng">
-<head>
-    <meta charset="UTF-8">
-    <mata name="Viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website V0.1</title>
-</head>
-<body>
-    <h1>Adam Pann</h1>
-    <p>This is my first pass at setting up a personal webpage using github pages</p>
-</body>
-</html>
+---
+layout: default
+title: "Home"
+---
+
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
